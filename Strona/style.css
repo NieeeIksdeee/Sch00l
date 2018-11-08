@@ -1,0 +1,50 @@
+#strona{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+.gora{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+.srodek{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background-color: green;
+    justify-content: center;   
+}
+.dol{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    justify-content: center;  
+}
+.form{
+    display: flex;
+    width: 80%;
+    height: 4vh;
+    padding: 3px;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+    box-shadow: 5px 10px lightgray;
+}
+
+.a{
+    height: 10px;
+}
+.h1{
+    width: 100%;
+
+}
